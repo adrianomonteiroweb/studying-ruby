@@ -1,6 +1,7 @@
-print 'Digite um número: '
+print 'Digite M p/ masculino ou F p/ feminino: '
 
-age = gets.chomp.to_i
+# sex = gets.chomp.to_i
+sex = gets.chomp
 
 # IF
 
@@ -18,13 +19,17 @@ age = gets.chomp.to_i
 
 # CASE
 
-case age
-when 0..2
-  puts "Baby"
-when 3..12
-  puts "Child"
-when 13..18
-  puts "Teenager"
-else
-  puts "Adult"
-end
+# case age
+# when 0..2
+#   puts "Baby"
+# when 3..12
+#   puts "Child"
+# when 13..18
+#   puts "Teenager"
+# else
+#   puts "Adult"
+# end
+
+# TERNÁRIA
+
+sex == 'M' ? (puts 'Masculino') : (puts 'Feminino')
