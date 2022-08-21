@@ -14,7 +14,7 @@ class Pj < Peaple
   attr_accessor :cnpj
 
   def pay_supplier
-    puts "Paying supplier..."
+    "Paying supplier..."
   end
 end
 
